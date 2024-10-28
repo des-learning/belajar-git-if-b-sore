@@ -12,3 +12,4 @@ class Hello:
 if __name__ == "__main__":
     app = Hello("budi")
     app.greeting()
+    app.bye()
