@@ -5,6 +5,9 @@ class Hello:
     def greeting(self):
         print("Hello " + self.nama)
 
+    def bye(self):
+        print("Bye bye " + self.nama)
+
 
 if __name__ == "__main__":
     app = Hello("budi")
